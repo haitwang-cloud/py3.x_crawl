@@ -1,0 +1,25 @@
+*** Please tell me who you are.
+Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+ 
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+fatal: unable to auto-detect email address
+ 
+解决办法：
+打开终端，进入自己的项目下，有个.git目录
+cd  ~/MyPro/.git
+vi  config
+ 
+[core]
+           repositoryformatversion = 0
+           filemode = true
+           bare = false
+           logallrefupdates = true
+           ignorecase = true
+ #添加以下三行：
+ [user]
+     email = yourname@me.com
+     name = yourname
+ 
