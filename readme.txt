@@ -1,3 +1,3 @@
-git is  a  distributed version control system
-git is free softwre
+python3.X以上爬虫的学习
 
+py_crawler01:一般来说这种简单的入门爬虫适合获取一些简单的内容，比如贴吧，论坛，模拟登陆，模拟点赞刷票之类的。如果是大型的项目，有可能有ajax之类的异步加载技术，需要做一些处理的。这时需要一些成熟的爬虫框架。
